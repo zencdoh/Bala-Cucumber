@@ -28,6 +28,7 @@ public class TestHealthDirect {
 		
 
 		driver.get("https://www.healthdirect.gov.au/");
+		System.out.println("URL is opened");
 		driver.manage().window().maximize();
 		
 	}
